@@ -11,7 +11,7 @@ I'm Lauren Felty, a software developer based in Houston, TX, with a strong backg
 ### 1. **WatchTower: DynamoDB Capacity Visualization Tool**
 
 **Description:** A tool that helps developers choose between provisioned and OnDemand capacity in AWS DynamoDB by visualizing database capacities and predictive trends using AI.  
-**Technologies:** AWS DynamoDB, AWS Bedrock, D3.js, AWS IAMs  
+**Technologies:** AWS DynamoDB, AWS Bedrock, Chart.js, AWS IAMs, MUI  
 **GitHub Repository:** [WatchTower](https://github.com/oslabs-beta/watchtower)
 
 ## Skills

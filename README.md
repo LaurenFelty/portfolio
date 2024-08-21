@@ -25,6 +25,6 @@ I'm Lauren Felty, a software developer based in Houston, TX, with a strong backg
 ## Contact
 
 - **Email:** [lauren.a.felty@gmail.com](mailto:lauren.a.felty@gmail.com)
-- **LinkedIn:** [linkedin.com/in/lauren-felty](www.linkedin.com/in/lauren-felty)
-- **GitHub:** [github.com/laurenfelty](www.github.com/laurenfelty)
-- **Portfolio:** [laurenfelty.com](www.laurenfelty.com)
+- **LinkedIn:** [linkedin.com/in/lauren-felty](https://www.linkedin.com/in/lauren-felty)
+- **GitHub:** [github.com/laurenfelty](https://www.github.com/laurenfelty)
+- **Portfolio:** [laurenfelty.com](https://www.laurenfelty.com)

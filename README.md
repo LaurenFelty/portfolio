@@ -17,7 +17,7 @@ I'm Lauren Felty, a software developer based in Houston, TX, with a strong backg
 ## Skills
 
 - **Programming Languages:** JavaScript, TypeScript, Python
-- **Frameworks & Libraries:** React, Angular, D3.js, Spring Boot
+- **Frameworks & Libraries:** React, Angular, Next.js, Chart.js
 - **Cloud & DevOps:** AWS (DynamoDB, Bedrock, IAM), Docker, Kubernetes
 - **Tools:** Git, Webpack, Vite, Jira
 - **Databases:** MySQL, MongoDB, AWS DynamoDB

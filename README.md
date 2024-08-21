@@ -43,4 +43,3 @@ I'm Lauren Felty, a software developer based in Houston, TX, with a strong backg
 - **Portfolio:** [laurenfelty.com](https://www.laurenfelty.com)
 =======
 - **Portfolio:** [laurenfelty.com](https://www.laurenfelty.com)
->>>>>>> 11ef897 (update readme)

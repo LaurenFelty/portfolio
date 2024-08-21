@@ -1,6 +1,6 @@
 # Lauren Felty's Portfolio
 
-Welcome to my portfolio! This repository showcases some of the projects I've worked on, highlighting my skills in software development, particularly in Java and JavaScript, as well as my experience with various frameworks and tools. Feel free to explore and reach out if you have any questions or feedback!
+Welcome to my portfolio! This repository showcases some of the projects I've worked on, highlighting my skills in software development, particularly in JavaScript, as well as my experience with various frameworks and tools. Feel free to explore and reach out if you have any questions or feedback!
 
 ## About Me
 
@@ -43,4 +43,3 @@ I'm Lauren Felty, a software developer based in Houston, TX, with a strong backg
 - **Portfolio:** [laurenfelty.com](https://www.laurenfelty.com)
 =======
 - **Portfolio:** [laurenfelty.com](https://www.laurenfelty.com)
->>>>>>> 11ef897 (update readme)

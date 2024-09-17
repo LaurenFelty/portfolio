@@ -1,36 +1,47 @@
-.about-section {
-  padding: 2rem;
-  background-color: #f9f9f9;
-  text-align: center;
-}
+:host {
+  .about-section {
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+    text-align: left;
+  }
 
-.about-container {
-  max-width: 800px;
-  margin: 0 auto;
-}
+  .about-section__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+  }
 
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin: 1rem auto;
-  display: block;
-}
+  .about-section__text {
+    font-size: 1.25rem;
+    color: #555;
+    line-height: 1.75;
+    margin-bottom: 2rem;
+  }
 
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #333;
-}
+  .about-section__image {
+    float: right;
+    margin-left: 2rem;
+    max-width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
 
-h2 {
-  font-size: 1.75rem;
-  margin-top: 0.5rem;
-  color: #007bff;
-}
+  .about-section__cta {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
 
-p {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  color: #666;
+  .about-section__cta:hover {
+    background: linear-gradient(90deg, #0056b3, #003d8f);
+    transform: translateY(-3px);
+  }
 }

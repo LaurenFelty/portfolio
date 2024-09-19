@@ -2,31 +2,15 @@
   <h1 class="projects-section__title">Projects</h1>
 
   <div class="projects-section__grid">
-    <div class="projects-section__card">
-      <h2 class="projects-section__card-title">Project One</h2>
+    <!-- Use *ngFor to loop through the projects array -->
+    <div class="projects-section__card" *ngFor="let project of projects">
+      <h2 class="projects-section__card-title">{{ project.title }}</h2>
       <p class="projects-section__card-text">
-        A scalable web application built using Angular and Node.js.
+        {{ project.description }}
       </p>
-      <a
-        href="https://github.com/laurenfelty/project-one"
-        class="projects-section__cta"
+      <a href="{{ project.link }}" target="_blank" class="projects-section__cta"
         >View Project</a
       >
     </div>
-
-    <div class="projects-section__card">
-      <h2 class="projects-section__card-title">Project Two</h2>
-      <p class="projects-section__card-text">
-        A cloud-based platform utilizing AWS services and serverless
-        architecture.
-      </p>
-      <a
-        href="https://github.com/laurenfelty/project-two"
-        class="projects-section__cta"
-        >View Project</a
-      >
-    </div>
-
-    <!-- Add more project cards as needed -->
   </div>
 </section>

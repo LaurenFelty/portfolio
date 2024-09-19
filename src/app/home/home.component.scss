@@ -1,8 +1,22 @@
 :host {
   .home-section {
+    background-color: #f9f9f9; /* Light background to contrast with header */
     padding: 4rem 2rem;
-    background-color: #f9f9f9;
-    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+    border-radius: 12px; /* Soft, rounded edges */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures even spacing between text and image */
+    gap: 2rem; /* Adds spacing between the text and image */
+    text-align: left; /* Aligns text to the left */
+  }
+
+  .home-section__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60%;
   }
 
   .home-section__title {
@@ -10,18 +24,28 @@
     font-weight: bold;
     color: #333;
     margin-bottom: 1.5rem;
+    letter-spacing: 0.1rem;
   }
 
   .home-section__subtitle {
-    font-size: 1.5rem;
-    color: #666;
+    font-size: 1.8rem;
+    color: #007bff;
     margin-bottom: 2rem;
   }
 
+  .home-section__text {
+    font-size: 1.25rem; /* Text size */
+    color: #666;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+  }
+
+  /* Update the CTA button to match the text size */
   .home-section__cta {
     display: inline-block;
-    padding: 1rem 2rem;
-    background: linear-gradient(90deg, #007bff, #0056b3);
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    background: linear-gradient(90deg, #0056b3, #003d8f);
     color: white;
     font-weight: 600;
     text-transform: uppercase;
@@ -29,17 +53,48 @@
     text-decoration: none;
     border-radius: 8px;
     transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+    max-width: fit-content;
   }
 
   .home-section__cta:hover {
-    background: linear-gradient(90deg, #0056b3, #003d8f);
+    background: linear-gradient(90deg, #003d8f, #002b7f);
     transform: translateY(-3px);
   }
 
   .home-section__image {
-    margin-top: 3rem;
-    max-width: 100%;
-    border-radius: 10px;
+    flex: 1;
+    max-width: 25%;
+    border-radius: 50%;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Responsive design for mobile screens */
+  @media (max-width: 768px) {
+    .home-section {
+      flex-direction: column;
+      text-align: center; /* Center text on mobile */
+    }
+
+    .home-section__content {
+      max-width: 100%; /* Make content take full width */
+    }
+
+    .home-section__image {
+      max-width: 100%; /* Image takes full width */
+      margin-top: 2rem;
+    }
+
+    .home-section__title {
+      font-size: 2rem;
+    }
+
+    .home-section__subtitle {
+      font-size: 1.5rem;
+    }
+
+    .home-section__cta {
+      font-size: 1.2rem;
+      padding: 0.5rem 1rem;
+    }
   }
 }

@@ -5,11 +5,35 @@
     text-align: left;
   }
 
+  /* Title at the top */
   .about-section__title {
     font-size: 2.5rem;
     font-weight: bold;
     color: #333;
     margin-bottom: 2rem;
+    text-align: center; /* Center the title */
+  }
+
+  /* Flexbox layout for image and text */
+  .about-section__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem; /* Space between image and text */
+  }
+
+  .about-section__image {
+    max-width: 40%; /* Image takes up 40% of the width */
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0; /* Prevents image from shrinking */
+  }
+
+  .about-section__text-content {
+    flex: 1; /* Text content takes up remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .about-section__text {
@@ -19,14 +43,7 @@
     margin-bottom: 2rem;
   }
 
-  .about-section__image {
-    float: right;
-    margin-left: 2rem;
-    max-width: 40%;
-    border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  }
-
+  /* CTA button positioned below the text */
   .about-section__cta {
     display: inline-block;
     padding: 1rem 2rem;
@@ -38,10 +55,34 @@
     text-decoration: none;
     border-radius: 8px;
     transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+    text-align: center;
+    margin-top: 2rem; /* Adds space above the button */
+    width: fit-content; /* Ensures button is full width */
   }
 
   .about-section__cta:hover {
     background: linear-gradient(90deg, #0056b3, #003d8f);
     transform: translateY(-3px);
+  }
+
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .about-section__content {
+      flex-direction: column; /* Stack image and text vertically on mobile */
+      text-align: center; /* Center the text on mobile */
+    }
+
+    .about-section__image {
+      max-width: 100%; /* Image takes full width on smaller screens */
+      margin-bottom: 2rem; /* Adds space below the image */
+    }
+
+    .about-section__text-content {
+      text-align: center;
+    }
+
+    .about-section__cta {
+      width: auto; /* Adjust button size on mobile */
+    }
   }
 }

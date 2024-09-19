@@ -1,7 +1,7 @@
 :host {
   .contact-section {
     padding: 4rem 2rem;
-    background-color: #ffffff;
+    background-color: #f9f9f9;
     text-align: center;
   }
 
@@ -9,44 +9,50 @@
     font-size: 2.5rem;
     font-weight: bold;
     color: #333;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-section__message {
+    font-size: 1.25rem;
+    color: #555;
     margin-bottom: 2rem;
   }
 
-  .contact-section__form {
-    max-width: 600px;
-    margin: 0 auto;
+  /* Flexbox layout for buttons */
+  .contact-section__links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Space between buttons */
+    flex-wrap: wrap;
   }
 
-  .contact-section__input,
-  .contact-section__textarea {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-size: 1rem;
-    color: #333;
-  }
-
-  .contact-section__textarea {
-    height: 150px;
-  }
-
-  .contact-section__cta {
+  /* Button styling */
+  .contact-section__button {
+    display: inline-block;
     padding: 1rem 2rem;
     background: linear-gradient(90deg, #007bff, #0056b3);
     color: white;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
-    border: none;
+    text-decoration: none;
     border-radius: 8px;
-    cursor: pointer;
     transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
   }
 
-  .contact-section__cta:hover {
+  .contact-section__button:hover {
     background: linear-gradient(90deg, #0056b3, #003d8f);
     transform: translateY(-3px);
+  }
+
+  /* Responsive design for mobile screens */
+  @media (max-width: 768px) {
+    .contact-section__links {
+      flex-direction: column; /* Stack buttons vertically on mobile */
+    }
+
+    .contact-section__button {
+      width: 100%; /* Make buttons full-width on mobile */
+    }
   }
 }

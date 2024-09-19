@@ -40,6 +40,13 @@
     line-height: 1.6;
   }
 
+  /* Flexbox container for buttons */
+  .home-section__buttons {
+    display: flex;
+    gap: 1.5rem; /* Space between buttons */
+    margin-bottom: 2rem; /* Optional spacing below buttons */
+  }
+
   /* Update the CTA button to match the text size */
   .home-section__cta {
     display: inline-block;
@@ -95,6 +102,12 @@
     .home-section__cta {
       font-size: 1.2rem;
       padding: 0.5rem 1rem;
+    }
+
+    /* Ensure buttons stack vertically on small screens */
+    .home-section__buttons {
+      flex-direction: column;
+      gap: 1rem; /* Smaller gap for mobile */
     }
   }
 }

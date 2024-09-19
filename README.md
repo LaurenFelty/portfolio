@@ -18,13 +18,13 @@ I'm Lauren Felty, a software developer based in Houston, TX, with a strong backg
 
 **Description:** A tool that helps users plan and organize travel plans.  
 **Technologies:** PostgreSQL, Webpack, Jest  
-**GitHub Repository:** [Wander Wise]()
+
 
 ### 3. **Pantry Partner: Pantry Inventory Application**
 
 **Description:** A tool that helps users organize and keep track of their pantry's inventory.  
 **Technologies:** JavaScript, MongoDB, SCSS  
-**GitHub Repository:** [Pantry Partner]()
+
 
 ## Skills
 
@@ -39,7 +39,5 @@ I'm Lauren Felty, a software developer based in Houston, TX, with a strong backg
 - **Email:** [lauren.a.felty@gmail.com](mailto:lauren.a.felty@gmail.com)
 - **LinkedIn:** [linkedin.com/in/lauren-felty](https://www.linkedin.com/in/lauren-felty)
 - **GitHub:** [github.com/laurenfelty](https://www.github.com/laurenfelty)
-<<<<<<< HEAD
 - **Portfolio:** [laurenfelty.com](https://www.laurenfelty.com)
-=======
-- **Portfolio:** [laurenfelty.com](https://www.laurenfelty.com)
+

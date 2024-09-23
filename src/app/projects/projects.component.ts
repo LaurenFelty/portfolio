@@ -15,7 +15,7 @@ export class ProjectsComponent {
     {
       title: 'Wander Wise',
       description: 'A Travel Planning Application',
-      link: 'https://github.com/LaurenFelty',
+      link: 'https://github.com/Super-Pink-Fairy-Armadillo/WanderWise',
     },
     {
       title: 'Pantry Partner',
